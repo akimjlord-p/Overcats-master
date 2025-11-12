@@ -1,0 +1,120 @@
+#cats
+
+#northpaw_veteran
+defensive_stance:
+  name: "Защитная стойка"
+  description: "Воины Северных Лап несокрушимы на горных перевалах"
+  cooldown: 2
+  icon: "🏰"
+  effects:
+    - type: "Strength"
+      power: 0.25
+      duration: 1
+      target: "ally"
+
+careful_thrust:
+  name: "Осторожный выпад"
+  description: "Резкий, но осторожный взмах меча"
+  cooldown: 1
+  icon: "🤺"
+  damage:
+    type: "physical"
+    value: 120
+    target: "enemy"
+
+shield_bash:
+  name: "Удар щитом"
+  description: "Хоть это и простой удар щитом, мало не покажется никому"
+  cooldown: 2
+  icon: "🛡️"
+  damage:
+    type: "physical"
+    value: 95
+    target: "enemy"
+  effects:
+    - type: "Strength"
+      power: 0.12
+      duration: 1
+      target: "ally"
+
+desperate_strike:
+  name: "Отчаянный удар"
+  description: "Предчуствуя скорую победу, воин Северных Лап открывается, совершая удар"
+  cooldown: 3
+  icon: "⚔️"
+  damage:
+    type: "physical"
+    value: 195
+    target: "enemy"
+  effects:
+    - type: "crack"
+      power: 0.18
+      duration: 1
+      target: "ally"
+
+gust_of_norht_wind:
+  name: "Взмах северного ветра"
+  description: "Северный ветер придаёт сил своему воину и приносит морозную смерть своим врагам"
+  cooldown: 4
+  icon: "❄️"
+  damage:
+    type: "magical"
+    value: 140
+    target: "enemy"
+  effects:
+    - type: "stun"
+      power: 0
+      duration: 1
+      target: "enemy"
+
+
+
+#bloodfang_berserker
+
+#custom: blood_sacrifice
+
+accurate_blow:
+  name: "Аккуратный удар"
+  description: "Точный и аккуратный взмах кинжала"
+  icon: "🗡️"
+  cooldown: 1
+  damage: 
+    type: "physical"
+    value: 150
+    target: "enemy"
+
+bloody_whistle:
+  name: "Кровавый свист"
+  desciption: "Воздух рассекает цепной ледоруб"
+  icon: "⛏️"
+  cooldown: 2
+  damage:
+    type: "physical"
+    value: 120
+    target: "enemy"
+  effects:
+    - type: "bleed"
+      power: 15
+      duration: 4
+
+#custom: feeling_of_blood
+
+open_veins:
+  name: "Вскрыть вены"
+  desciption: "В кровавой ярости берсерк Кровавого Клыка вскрывает вены врага"
+  icon: "🔪"
+  cooldown: 4
+  effects:
+    - type: "bleed"
+      power: 7
+      duration: 4
+    - type: "bleed"
+      power: 7
+      duration: 4
+    - type: "bleed"
+      power: 7
+      duration: 4
+    - type: "bleed"
+      power: 7
+      duration: 4
+ 

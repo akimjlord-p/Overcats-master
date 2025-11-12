@@ -1,0 +1,27 @@
+
+#cats----------
+
+northpaw_veteran:
+  name: "Ветеран северных лап"
+  max_health: 1000
+  armor: 0.35
+  picture: "pic_path"
+  abilities:
+    - "defensive_stance"
+    - "careful_thrust"
+    - "shield_bash"
+    - "desperate_strike"
+    - "gust_of_norht_wind"
+
+
+bloodfang_berserk:
+  name: "Берсерк кровавого клыка"
+  max_health: 780
+  armor: 0.22
+  picture: "pic_path"
+  abilities:
+    - "blood_sacrifice"
+    - "accurate_blow"
+    - "bloody_whistle"
+    - "feeling_of_blood"
+    - "open_veins"
